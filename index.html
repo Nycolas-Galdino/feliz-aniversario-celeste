@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f7a8bd" />
+    <meta
+      name="description"
+      content="Uma pequena celebração de aniversário para Celeste — com carinho, bolo, coelhos e memórias."
+    />
+    <title>Feliz aniversário, Celeste! ✦</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="grain" aria-hidden="true"></div>
+    <div class="floating-hearts" aria-hidden="true"></div>
+
+    <header class="hero" id="inicio">
+      <nav class="nav" aria-label="Navegação principal">
+        <a class="brand" href="#inicio" aria-label="Ir para o início">C ✦ S</a>
+        <a class="nav-link" href="#memorias">nossas memórias</a>
+      </nav>
+
+      <div class="hero-content reveal">
+        <p class="eyebrow"><span>19.09</span> uma amizade escrita nas estrelas</p>
+        <h1>Feliz aniversário,<br /><em>Celeste</em>!</h1>
+        <p class="hero-copy">
+          Ou Selenia, quando eu quero te provocar. Hoje o universo inteiro ficou um pouco mais rosa,
+          só para celebrar você.
+        </p>
+        <a class="button" href="#contador">ver nossa história <span aria-hidden="true">↓</span></a>
+      </div>
+
+      <div class="hero-photo reveal" aria-label="Ilustração de duas pessoas sorrindo juntas">
+        <div class="photo-frame">
+          <img src="assets/anjo-e-diabinha.webp" alt="Selfie ilustrada de um anjo e uma diabinha sorrindo juntos" />
+        </div>
+        <span class="scribble scribble-one" aria-hidden="true">meu lugar favorito ♡</span>
+        <span class="spark spark-one" aria-hidden="true">✦</span>
+        <span class="spark spark-two" aria-hidden="true">✧</span>
+      </div>
+
+      <div class="scroll-note" aria-hidden="true">um pedacinho do céu na Terra</div>
+    </header>
+
+    <main>
+      <section class="counter-section" id="contador">
+        <div class="section-heading reveal">
+          <span class="mini-bunny" aria-hidden="true">૮꒰ ˶• ༝ •˶꒱ა</span>
+          <p class="eyebrow">desde aquele dia, às 12:50</p>
+          <h2>Já faz todo esse tempo<br />que a vida ganhou mais cor.</h2>
+        </div>
+
+        <div class="counter reveal" aria-live="polite" aria-label="Tempo de amizade">
+          <div class="counter-card"><strong id="days">000</strong><span>dias</span></div>
+          <div class="counter-separator" aria-hidden="true">:</div>
+          <div class="counter-card"><strong id="hours">00</strong><span>horas</span></div>
+          <div class="counter-separator" aria-hidden="true">:</div>
+          <div class="counter-card"><strong id="minutes">00</strong><span>minutos</span></div>
+          <div class="counter-separator" aria-hidden="true">:</div>
+          <div class="counter-card"><strong id="seconds">00</strong><span>segundos</span></div>
+        </div>
+        <p class="counter-caption reveal">e ainda parece só o começo <span aria-hidden="true">♥</span></p>
+      </section>
+
+      <section class="memories" id="memorias">
+        <div class="memory-photo reveal">
+          <div class="tape" aria-hidden="true"></div>
+          <img src="assets/luzes-rosa-e-roxa.webp" alt="Selfie ilustrada sob luzes rosa e roxa" loading="lazy" />
+          <p>nós, em qualquer universo ✦</p>
+        </div>
+
+        <div class="letter reveal">
+          <p class="eyebrow">uma cartinha para você</p>
+          <h2>Para a minha querida<br /><em>Selenia,</em></h2>
+          <p>
+            Que o seu novo ciclo seja tão doce quanto o seu bolo favorito, tão leve quanto um coelhinho
+            saltando e tão brilhante quanto o nome Celeste merece.
+          </p>
+          <p>
+            Obrigado por cada conversa, cada risada e por todas as pequenas coisas que fizeram a nossa
+            amizade se tornar tão especial. Que nunca faltem motivos para sorrir — nem cobertura extra.
+          </p>
+          <p class="signature">Com carinho, sempre. ♡</p>
+        </div>
+      </section>
+
+      <section class="cake-section">
+        <div class="cake-copy reveal">
+          <p class="eyebrow">faça um pedido</p>
+          <h2>Um bolo só seu<br />— quase.</h2>
+          <p>Prometo dividir, mas o último pedaço é seu. Clique para apagar as velinhas e fazer um pedido.</p>
+          <button class="button button-dark" id="blow-candles" type="button">apagar as velinhas ✦</button>
+          <p class="wish-message" id="wish-message" role="status"></p>
+        </div>
+
+        <div class="cake-scene reveal" aria-label="Bolo de aniversário rosa com velas">
+          <div class="bunny bunny-left" aria-hidden="true"><i></i><b>•ᴗ•</b></div>
+          <div class="cake" id="cake" aria-hidden="true">
+            <div class="candles">
+              <span><i></i></span><span><i></i></span><span><i></i></span>
+            </div>
+            <div class="cake-top"><i></i><i></i><i></i><i></i><i></i></div>
+            <div class="cake-layer cake-layer-one"><span>CELESTE</span></div>
+            <div class="cake-layer cake-layer-two"></div>
+            <div class="cake-plate"></div>
+          </div>
+          <div class="bunny bunny-right" aria-hidden="true"><i></i><b>•ﻌ•</b></div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Feito com carinho, açúcar e um pouquinho de magia.</p>
+      <a href="#inicio" aria-label="Voltar ao início">↑</a>
+    </footer>
+  </body>
+</html>
